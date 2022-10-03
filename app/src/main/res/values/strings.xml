@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NoteB</string>
+    <string name="bt_save">Сохранить</string>
+    <string name="heading_main">Введите заголовок</string>
+    <string name="content_main">Введите описание</string>
+    <string name="bt_add">Добавить</string>
+    <string name="no_elements_main">Нет элементов</string>
+    <string name="bt_photo">Прикрепить фото</string>
+    <string name="bt_delete">Удалить</string>
+    <string name="ed_title_hint">Введите заголовок</string>
+    <string name="ed_content_hint">Введите описание</string>
+    <string name="bt_save_close">Закрыть</string>
+    <string name="photo">Фото</string>
+    <string name="my_note_logo">NoteB</string>
+
+</resources>
