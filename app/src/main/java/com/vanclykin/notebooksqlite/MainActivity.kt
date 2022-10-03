@@ -36,17 +36,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.ivLogo.setOnClickListener {
-            val listener = DialogInterface.OnClickListener { _, which ->
-                if (which == DialogInterface.BUTTON_POSITIVE) {
-
-                }
-            }
-
             val dialog = AlertDialog.Builder(this@MainActivity)
-                .setTitle("Справка")
+                .setTitle(getString(R.string.faq))
                 .setMessage("Версия приложения: ${BuildConfig.VERSION_NAME}")
                 .setCancelable(true)
-                .setPositiveButton("Закрыть", listener)
+                .setNegativeButton("Закрыть", null)
                 .create()
             dialog.show()
         }
